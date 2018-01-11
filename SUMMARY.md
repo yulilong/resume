@@ -6,7 +6,7 @@
   * [Mac下一些终端命令](Mac下一些终端命令.md)      
   * [readme](readme.md)    
 
- angular
+ * angular      
  	* [angular下arcgis开发遇见的问题](angular下arcgis开发遇见的问题.md)       
  		* [angular2中引入插件](angular2中引入插件.md)         
  			* [angular2开发知识点](angular2开发知识点.md)        
