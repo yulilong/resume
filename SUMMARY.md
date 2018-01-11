@@ -7,3 +7,8 @@
    * [Mac下一些终端命令](Mac下一些终端命令.md)    
   * [readme](readme.md)    
 
+-------
+
+## [Mac下一些终端命令](Mac下一些终端命令.md)    
+
+### [readme](readme.md)   
