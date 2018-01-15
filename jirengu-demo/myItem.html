@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>myItem</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		a {
+			/*去掉 a链接下划线*/
+			text-decoration: none;
+		}
+
+		body {
+			font: 14px/1.5 Arial;
+			background-color: #fff2e3;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 40px;
+			color: #879681;
+			margin-top: 20px;
+		}
+
+		.intro {
+			color: #aaa;
+			margin-top: 20px;
+		}
+
+		.btn {
+			background-color: #74b791;
+			color: #fff;
+			padding: 8px 12px;
+			border-radius: 3px;
+			display: inline-block;
+			/*css3属性， 变化时间持续到0.3秒，慢慢变化*/
+			transition: all 0.3s;
+		}
+
+		.btn.active {
+			opacity: 0.6;
+		}
+
+		.btn:hover {
+			color: #76b692;
+			background-color: #fff;
+		}
+
+		.btns-tabs .btn,
+		.btns-actions .btn {
+			margin-left: 5px;
+			margin-bottom: 5px
+		}
+
+		.btns-tabs {
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+
+		.btns-actions {
+			margin-top: 20px;
+		}
+
+		.copyright {
+			margin-top: 20px;
+			color: #aaa;
+		}
+
+		.copyright a {
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>我的项目</h1>
+	<p class="intro">一句话的介绍</p>
+	<div class="btns-tabs">
+		<a href="" class="btn active">项目1</a>
+		<a href="" class="btn">项目1</a>
+		<a href="" class="btn">项目1</a>
+		<a href="" class="btn">项目1</a>
+		<a href="" class="btn">项目1</a>
+	</div>
+
+	<img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2" alt="项目图片">
+
+	<div class="btns-actions">
+		<a href="" class="btn">项目1</a>
+		<a href="" class="btn">项目1</a>
+	</div>
+
+	<p class="copyright">作者:
+		<a href="#">我</a>
+	</p>
+
+</body>
+
+</html>
